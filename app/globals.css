@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+    @apply bg-black;
+    @apply text-white;
+    scroll-behavior: smooth;
+  }
+
+  h1 {
+    @apply text-4xl;
+    @apply font-bold;
+  }
+
+  ::selection {
+    @apply bg-violet-500;
+  }
+
+
+}
+
+.animated-text-1 {
+  background-image: linear-gradient(90deg, #007cf0, #00dfd8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: transparent;
+  animation: animated-gradient-1 4s infinite;
+}
+
+.animated-text-2 {
+  background-image: linear-gradient(90deg, #ff0080, #7928ca);
+  background-clip: text;
+  -webkit-background-clip: text;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: transparent;
+  animation: animated-gradient-2 6s infinite;
+}
+
+.animated-text-3 {
+  background-image: linear-gradient(90deg, #ff4d4d, #f9cb28);
+  background-clip: text;
+  -webkit-background-clip: text;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: transparent;
+  animation: animated-gradient-3 8s infinite;
+}
+
+
+@keyframes animated-gradient-1 {
+
+  50% {
+    color: white;
+  }
+}
+
+@keyframes animated-gradient-2 {
+
+  50% {
+    color: white;
+  }
+}
+
+@keyframes animated-gradient-3 {
+
+  50% {
+    color: white;
+  }
+}
+
+.animated-btn {
+  animation: animated-btn 4s infinite ease;
+}
+
+@keyframes animated-btn {
+  0% {
+    box-shadow: #7928ca;
+  }
+
+  50% {
+    box-shadow: none;
+  }
+
+  100% {
+    box-shadow: #7928ca;
+  }
+}
