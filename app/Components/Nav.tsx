@@ -12,13 +12,13 @@ const Nav = () => {
           <ol className="text-[15px] ml-6 text-gray-300 font-light">
             <Link
               className="mx-4 hover:text-white transition-all ease-in-out duration-[.3s]"
-              href="#home"
+              href="/"
             >
               Home
             </Link>
             <Link
               className="mx-4 hover:text-white transition-all ease-in-out duration-[.3s]"
-              href="#"
+              href="/about"
             >
               About
             </Link>

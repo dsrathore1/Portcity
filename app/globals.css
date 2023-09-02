@@ -97,3 +97,45 @@
     box-shadow: #7928ca;
   }
 }
+
+.animate-text {
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.animate-text::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  height: 6px;
+  border-radius: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: mediumpurple;
+  left: 2rem;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0);
+}
+
+.animate-text:hover::after {
+  transform: scale(1);
+}
+
+.animate-ball {
+  animation: ball 2s infinite;
+}
+
+@keyframes ball {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(1.2rem);
+  }
+}
