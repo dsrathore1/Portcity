@@ -37,7 +37,7 @@ const About = () => {
                         <ol className={`${s_m.className} flex tracking-wide mt-3`}>
                             <Link className='hover:text-violet-600 transition-all duration-[.7s] ease-in-out flex justify-center items-center mx-3 gap-2' href="#"><BsHeartHalf />GitHub</Link>
                             <Link className='hover:text-pink-600 transition-all duration-[.7s] ease-in-out flex justify-center items-center mx-3 gap-2' href="#"><BsHeartHalf />Instagram</Link>
-                            <Link className='hover:text-amber-600 transition-all duration-[.7s] ease-in-out flex justify-center items-center mx-3 gap-2' href="#"><BsHeartHalf />LinknkedIn</Link>
+                            <Link className='hover:text-blue-600 transition-all duration-[.7s] ease-in-out flex justify-center items-center mx-3 gap-2' href="#"><BsHeartHalf />LinknkedIn</Link>
                             <Link className='hover:text-slate-500 transition-all duration-[.7s] ease-in-out flex justify-center items-center mx-3 gap-2' href="#"><BsHeartHalf />Twitter</Link>
                         </ol>
                     </div>

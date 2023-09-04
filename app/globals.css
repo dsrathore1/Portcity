@@ -8,6 +8,7 @@
     @apply bg-black;
     @apply text-white;
     scroll-behavior: smooth;
+    user-select: none
   }
 
   h1 {
@@ -18,9 +19,11 @@
   ::selection {
     @apply bg-violet-500;
   }
-
-
 }
+
+/* ::-webkit-scrollbar{
+  display: none;
+} */
 
 .animated-text-1 {
   background-image: linear-gradient(90deg, #007cf0, #00dfd8);
@@ -138,4 +141,39 @@
   50% {
     transform: translateY(1.2rem);
   }
+}
+
+.imgCarouselContainer {
+  height: 100vh;
+  overflow: hidden;
+  cursor: default;
+  user-select: none;
+}
+
+.imgCarousel {
+  background-repeat: repeat;
+  background-size: auto 100%;
+  margin-top: 3rem;
+  animation: slider 150s linear infinite;
+  background-image: url("./static/Slide2.png");
+}
+
+@keyframes slider {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: -2420px 0;
+  }
+}
+
+.imgCarousel {
+  height: 90vh;
+}
+
+.clickBelow {
+  background: none;
+  color: grey;
+  text-align: center;
 }
