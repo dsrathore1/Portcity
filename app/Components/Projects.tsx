@@ -49,7 +49,7 @@ const Projects = () => {
                         </Link>
                     </div>
                 </div>
-                <div className='w-full h-full relative'>
+                <div className='w-full h-full'>
                     <div className='w-full h-full px-4 space-y-2 overflow-y-scroll'>
                         <FlipBox />
                         <FlipBox />

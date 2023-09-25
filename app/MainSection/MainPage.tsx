@@ -4,6 +4,7 @@ import "../globals.css";
 import Projects from "../Components/Projects";
 import { Space_Mono } from "next/font/google";
 import HireMe from "../Components/HireMe";
+import Footer from "../Components/Footer";
 
 const s_m = Space_Mono({ subsets: ["latin"], weight: ["400"] });
 
@@ -33,6 +34,7 @@ const MainPage = () => {
       </div>
       <Projects />
       <HireMe />
+      <Footer /> 
     </>
   );
 };
