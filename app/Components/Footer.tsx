@@ -20,8 +20,8 @@ const sm = Space_Mono({
 const Footer = () => {
     return (
         <>
-            <div className='flex justify-evenly items-center h-[40vh] bg-slate-900 w-full '>
-                <div className='border-r-2 h-full w-full px-2 flex flex-col justify-center items-center'>
+            <div className='flex justify-evenly items-center h-[40vh] border-t w-full border-solid border-[1px] border-white border-opacity-20'>
+                <div className='h-full w-full px-2 flex flex-col justify-center items-center'>
                     <Image src={Logo} alt='#' height={100} width={100} className='mt-10' />
                     <div className=' flex flex-col justify-center items-center h-full w-full -mt-10'>
                         <p className={`${sm.className} text-xl w-full text-center tracking-wide uppercase`}>Portfolios are everything, promises are nothing. Do the work.</p>
@@ -30,21 +30,34 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className='border-r-2 h-full w-full px-2'>
-                    <p className='text-lg'>Contact</p>
-                    <div>
-                        <MdEmail />
-                        <p>Email Me</p>
-                        <p>dsrathorebsw1234@gmail.com</p>
+                <div className='ml-9 h-full w-full px-2 flex justify-center items-start flex-col space-y-9'>
+                    <p className='text-4xl font-bold'>Contact</p>
+                    <div className='flex justify-center items-center'>
+                        <span className='px-3 text-4xl py-3 mr-3 bg-gradient-to-tr from-indigo-500 from-10% to-pink-500 rounded-md'>
+                            <MdEmail />
+                        </span>
+                        <div>
+                            <p className='font-bold text-gray-500 uppercase'>Email Me</p>
+                            <p>dsrathorebsw1234@gmail.com</p>
+                        </div>
                     </div>
-                    <div>
-                        <FaPhoneAlt />
-                        <p>Call Me</p>
-                        <p>+91 9461858617</p>
+                    <div className='flex justify-center items-center'>
+                        <span className='px-3 text-4xl py-3 mr-3 bg-gradient-to-tr from-indigo-500 from-10% to-pink-500 rounded-md'>
+                            <FaPhoneAlt />
+                        </span>
+                        <div>
+                            <p className='font-bold text-gray-500 uppercase'>Call Me</p>
+                            <p>+91 9461858617</p>
+                        </div>
                     </div>
                 </div>
-                <div className='px-2 h-full w-full'>
-                    <p>Join my newsletter to get tips and tricks or an awesome projects</p>
+                <div className='ml-9 h-full w-full px-2 flex justify-center items-start flex-col space-y-7'>
+                    <h1>Newsletter</h1>
+                    <p className=''>Join my newsletter to get tips and tricks or an awesome projects</p>
+                    <div className='w-full flex flex-col justify-center items-center'>
+                        <input className='h-[7vh] my-3 rounded-full bg-transparent w-full border-solid border-t-2 border-r-2 border-l-2 border-gray-600 px-4 text-lg' placeholder='Email' />
+                        <button className='text-md bg-gradient-to-r rounded-full py-2 w-[12vw] active:scale-75 transition-all ease-in-out duration-500 from-indigo-500 from-10% to-pink-500'>Sign Up</button>
+                    </div>
                 </div>
             </div>
         </>
