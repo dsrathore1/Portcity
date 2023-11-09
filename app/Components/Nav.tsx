@@ -24,21 +24,9 @@ const Nav = () => {
             </Link>
             <Link
               className="mx-4 hover:text-white transition-all ease-in-out duration-[.3s]"
-              href="#project"
+              href="/project_section"
             >
               Projects
-            </Link>
-            <Link
-              className="mx-4 hover:text-white transition-all ease-in-out duration-[.3s]"
-              href="#project"
-            >
-              Contribute
-            </Link>
-            <Link
-              className="mx-4 hover:text-white transition-all ease-in-out duration-[.3s]"
-              href="#project"
-            >
-              Progress
             </Link>
             <Link
               className="mx-4 hover:text-white transition-all ease-in-out duration-[.3s]"
@@ -53,7 +41,7 @@ const Nav = () => {
             className="border-slate-500 border py-2 px-6 rounded-lg transition-all ease-in-out duration-[.3s]"
             href="#contact"
           >
-            Contact
+            Contact Me
           </Link>
           <button className="text-black bg-white py-2 px-6 rounded-lg">
             Blogs

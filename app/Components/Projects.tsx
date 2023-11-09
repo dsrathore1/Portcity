@@ -54,7 +54,6 @@ const Projects = () => {
                         <FlipBox />
                         <FlipBox />
                         <FlipBox />
-                        <FlipBox />
                     </div>
                     <div className={`px-4 flex justify-center items-center ${s_m.className}`}>
                         <button className='bg-violet-500 px-10 my-5 py-3 rounded-lg uppercase tracking-wide'>Load More</button>
