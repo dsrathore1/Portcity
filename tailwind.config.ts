@@ -16,6 +16,9 @@ const config: Config = {
       boxShadow: {
         "3xl": "0 0 80px 3px #7928ca",
       },
+      fontSize: {
+        "10xl": "5rem",
+      },
     },
   },
   plugins: [],

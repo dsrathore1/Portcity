@@ -1,6 +1,6 @@
 import React from 'react'
 import FlipBox from './FlipBox';
-import ShareBtn from "../static/share-button.jsx";
+import ShareBtn from "../Static/share-button.jsx";
 import Link from 'next/link';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import { Space_Mono, Kaushan_Script } from 'next/font/google';

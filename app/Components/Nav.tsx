@@ -4,7 +4,7 @@ import React from "react";
 const Nav = () => {
   return (
     <>
-      <div className="h-[10vh] w-full flex justify-between items-center bg-transparent backdrop-blur-sm fixed">
+      <div className="h-[10vh] w-full flex justify-between items-center bg-transparent backdrop-blur-sm fixed border-b-[.2px] border-gray-800">
         <div className="flex justify-center items-center">
           <h2 className="text-4xl uppercase font-extrabold ml-7">
             Port<span className="text-violet-500">city</span>
@@ -24,13 +24,19 @@ const Nav = () => {
             </Link>
             <Link
               className="mx-4 hover:text-white transition-all ease-in-out duration-[.3s]"
-              href="/project_section"
+              href="/projects"
             >
-              Projects
+              Fav. Projects
             </Link>
             <Link
               className="mx-4 hover:text-white transition-all ease-in-out duration-[.3s]"
-              href="#project"
+              href="/repos"
+            >
+              Repositories
+            </Link>
+            <Link
+              className="mx-4 hover:text-white transition-all ease-in-out duration-[.3s]"
+              href="/socialMedia"
             >
               Social Media
             </Link>
