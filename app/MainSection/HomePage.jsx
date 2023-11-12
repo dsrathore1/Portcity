@@ -1,12 +1,6 @@
 import React from "react";
 import Tools from "../Components/Tools";
 import "../globals.css";
-import Projects from "../Components/Projects";
-import { Space_Mono } from "next/font/google";
-import HireMe from "../Components/HireMe";
-import Footer from "../Components/Footer";
-
-const s_m = Space_Mono({ subsets: ["latin"], weight: ["400"] });
 
 const MainPage = () => {
   return (
@@ -32,9 +26,6 @@ const MainPage = () => {
       <div className='imgCarouselContainer'>
         <div className='imgCarousel' />
       </div>
-      <Projects />
-      <HireMe />
-      <Footer /> 
     </>
   );
 };

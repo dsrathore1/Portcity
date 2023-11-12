@@ -1,11 +1,15 @@
-import Nav from "./Components/Nav";
-import Section1 from "./MainSection/HomePage";
+import Footer from "./Components/Footer";
+import HireMe from "./Components/HireMe";
+import Projects from "./Components/Projects";
+import MainPage from "./MainSection/HomePage";
 
 export default function Home() {
   return (
     <>
-      <Nav />
-      <Section1 />
+      <MainPage />
+      <Projects />
+      <HireMe />
+      <Footer />
     </>
   );
 }

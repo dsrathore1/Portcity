@@ -3,13 +3,12 @@
 import React from 'react';
 import { IoLogoSnapchat, IoLogoInstagram, IoLogoGithub, IoMdGlobe } from "react-icons/io";
 import { ImLinkedin } from "react-icons/im";
-import Nav from "../Components/Nav";
+import Footer from '../Components/Footer';
 
 const SocialMedia = () => {
     return (
         <>
-            <Nav />
-            <div className='main-container flex h-screen w-full justify-center items-center'>
+            <div className='main-container flex h-[97vh] w-full justify-center items-center'>
                 <div className='icons-container gap-[5rem] flex justify-center items-center'>
                     <ImLinkedin className='text-10xl hover:text-blue-500 duration-[.7s] ease-in-out' onClick={() => { window.open("https://linkedin.com/in/dsrathore1") }} />
                     <IoLogoInstagram className='text-10xl hover:text-pink-500 duration-[.7s] ease-in-out' onClick={() => { window.open("https://instagram.com/amblent_photographer") }} />
@@ -20,6 +19,7 @@ const SocialMedia = () => {
                     }} />
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

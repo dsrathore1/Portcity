@@ -1,8 +1,42 @@
 [
     {
-        "name": "DIGPAL SINGH",
-        "age": 23,
-        "course": "JAVA",
-        "isActive": true
+        "id": 1,
+        "title": "My Digital Canvas",
+        "lang": "JavaScript",
+        "repo_link": "https://github.com/dsrathore1/Personal-Porfolio",
+        "image_link": "",
+        "desc": "Portcity is a dynamic and visually engaging personal portfolio website that showcases the unique story and skills of Digpal Singh Rathore. The website serves as a virtual canvas, bringing together a collection of DS Rathore's projects, achievements, and experiences. The design is clean, modern, and user-friendly, allowing visitors to seamlessly navigate through different sections like 'About Me', 'Portfolio', and 'Contact.'"
+    },
+    {
+        "id": 2,
+        "title": "Netflix Clone",
+        "lang": "JavaScript",
+        "repo_link": "https://github.com/dsrathore1/Netflix-Clone",
+        "image_link": "",
+        "desc": "Netflix clone powered by React.js, delivering a sleek and immersive streaming experience. With a responsive interface and dynamic features, it showcases React's capability in building modern and visually appealing web applications. Dive into an engaging world of movies and TV shows seamlessly with Netflix Clone."
+    },
+    {
+        "id": 3,
+        "title": "Hooked on React",
+        "lang": "JavaScript",
+        "repo_link": "https://github.com/dsrathore1/hooks",
+        "image_link": "",
+        "desc": "Hooked on React is a ReactJS project that serves as an interactive learning platform for every React hook. This project combines educational excellence with hands-on experience, guiding users through the intricacies of React hooks using an array of engaging projects. From useState for dynamic state management to useEffect for side effects, Hooked on React ensures a comprehensive understanding of each hook in a practical, project-based setting. Elevate your React skills by diving into this immersive learning experience."
+    },
+    {
+        "id": 4,
+        "title": "ReactBlogX - Empowering Blogs with Appwrite",
+        "lang": "React JS",
+        "repo_link": "https://github.com/dsrathore1/Blog-Project",
+        "image_link": "",
+        "desc": "ReactBlogX is a ReactJS-powered blog project that stands out with its key feature: the integration of Appwrite for seamless and efficient data saving. By leveraging Appwrite, this project offers a robust alternative to traditional solutions like Firebase, providing enhanced data storage and retrieval capabilities. Users can experience a smoother, faster, and more reliable blog environment while enjoying the flexibility and scalability of ReactJS. Elevate your blogging experience with ReactBlogX, where cutting-edge technology meets user-friendly content creation."
+    },
+    {
+        "id": 5,
+        "title": "ResumeCraft - LocalStorage-Driven Resume Generator",
+        "lang": "JavaScript",
+        "repo_link": "https://github.com/dsrathore1/Resume-Generator",
+        "image_link": "",
+        "desc": "ResumeCraft is a user-friendly resume generator project built with HTML, CSS, and JavaScript, offering a seamless experience for crafting professional resumes. What sets this project apart is its integration of LocalStorage, providing users with the convenience of saving and retrieving their resume data directly on their device."
     }
 ]

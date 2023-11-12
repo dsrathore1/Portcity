@@ -1,14 +1,7 @@
 "use client"
 import React from 'react';
-import { Router } from "next/navigation";
-import Link from 'next/link';
 
 const RepoBox = ({ lang, star, name, size, click, watchers }) => {
-
-    const linkUrl = () => {
-        console.log(click);
-        Router.push(click);
-    }
 
     return (
         <>

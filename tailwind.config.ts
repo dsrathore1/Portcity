@@ -15,6 +15,7 @@ const config: Config = {
       },
       boxShadow: {
         "3xl": "0 0 80px 3px #7928ca",
+        "4xl": "0 0 15px .1px #631ea892",
       },
       fontSize: {
         "10xl": "5rem",

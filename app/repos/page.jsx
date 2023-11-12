@@ -1,7 +1,6 @@
 "use client"
 
 import React, { useEffect, useState } from 'react'
-import Nav from '../Components/Nav';
 import RepoBox from '../Components/RepoBox';
 
 const Repos = () => {
@@ -19,16 +18,19 @@ const Repos = () => {
 
     return (
         <>
-            <Nav />
             <div className='pt-[10vh]'>
                 <div className="text-white flex flex-wrap justify-center items-center">
                     {
-                        data && data.map((data, index) => {
+                        data.map((item, index) => {
                             return (
-                                <div key={index} >
-                                    <RepoBox lang={data.language} star={data.stargazers_count} name={data.name} size={data.size} click={data.clone_url} watchers={data.watchers} />
+                                <div className='flex flex-wrap justify-center items-center' key={index}>
+                                    {item.map((dataItems) => {
+                                        return (
+                                            <RepoBox key={dataItems.id} lang={dataItems.language} star={dataItems.stargazers_count} name={dataItems.name} size={dataItems.size} click={dataItems.clone_url} watchers={dataItems.watchers} />
+                                        );
+                                    })}
                                 </div>
-                            );
+                            )
                         })
                     }
                 </div>
