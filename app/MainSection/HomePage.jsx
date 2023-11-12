@@ -1,6 +1,7 @@
 import React from "react";
 import Tools from "../Components/Tools";
 import "../globals.css";
+import Link from "next/link";
 
 const MainPage = () => {
   return (
@@ -19,7 +20,7 @@ const MainPage = () => {
         </p>
         <div className="btns flex justify-center items-center gap-8 w-full">
           <button className="bg-white text-black rounded-md py-3 w-[10rem] mt-12">Collaborate</button>
-          <button className="animated-btn rounded-md py-3 w-[10rem] mt-12 border-violet-500 border-2 shadow-violet-500 shadow-3xl bg-black text-white">Projects</button>
+          <Link href="/repos" className="animated-btn rounded-md py-3 w-[10rem] mt-12 border-violet-500 border-2 shadow-violet-500 shadow-3xl bg-black text-white">Projects</Link>
         </div>
       </div>
       <Tools />

@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import FlipBox from './FlipBox';
 import ShareBtn from "../Static/share-button.jsx";
@@ -26,37 +27,37 @@ const Projects = () => {
                     <h2 className='mb-10 text-lg font-semibold text-violet-500'>Full-Stack Developer</h2>
                     <p className='text-[#b3b3b3]'>I built open source projects and also I contributes on several platform. With an relentless passion for harnessing the power of automation, continuous integration, and continuous deployment. <br /><br /> I has emerged as a driving force in modern software development practices moreover deep-rooted technical acumen, combined with an insatiable curiosity, has propelled me to the vanguard of DevOps methodologies, where I orchestrates intricate systems with finesse and precision.</p>
                     <div className='mt-6 flex justify-center items-center gap-10'>
-                        <Link href="" className='hover:text-blue-600 duration-500 ease-in-out flex justify-center items-center gap-2 text-sm'>
+                        <button onClick={() => { window.open("https://linkedin.com/in/dsrathore1") }} className='hover:text-blue-600 duration-500 ease-in-out flex justify-center items-center gap-2 text-sm'>
                             <span className='text-4xl'>
                                 <FaLinkedin />
                             </span>
                             LinkedIn
                             <ShareBtn />
-                        </Link>
-                        <Link href="" className='hover:text-pink-600 duration-500 ease-in-out flex justify-center items-center gap-2 text-sm'>
+                        </button>
+                        <button onClick={() => { window.open("https://instagram.com/amblent_photographer") }} className='hover:text-pink-600 duration-500 ease-in-out flex justify-center items-center gap-2 text-sm'>
                             <span className='text-4xl'>
                                 <FaInstagram />
                             </span>
                             Instagram
                             <ShareBtn />
-                        </Link>
-                        <Link href="#" className='hover:text-slate-500 duration-500 ease-in-out flex justify-center items-center gap-2 text-sm'>
+                        </button>
+                        <button onClick={() => { window.open("https://github.com/dsrathore1") }} className='hover:text-slate-500 duration-500 ease-in-out flex justify-center items-center gap-2 text-sm'>
                             <span className='text-4xl'>
                                 <FaGithub />
                             </span>
                             GitHub
                             <ShareBtn />
-                        </Link>
+                        </button>
                     </div>
                 </div>
                 <div className='w-full h-full'>
-                    <div className='w-full h-full px-4 space-y-2 overflow-y-scroll'>
+                    <div className='w-full h-full px-4 space-y-2 overflow-y-scroll no-scrollbar'>
                         <FlipBox />
                         <FlipBox />
                         <FlipBox />
                     </div>
                     <div className={`px-4 flex justify-center items-center ${s_m.className}`}>
-                        <button className='bg-violet-500 px-10 my-5 py-3 rounded-lg uppercase tracking-wide'>Load More</button>
+                        <Link href="/projects" className='bg-violet-500 px-10 my-5 py-3 rounded-lg uppercase tracking-wide' >Load More</Link>
                     </div>
                 </div>
             </div>
