@@ -1,5 +1,5 @@
 import React from 'react';
-import FavProjects from "@/app/Components/FavProjects.tsx";
+import FavProjects from "@/app/Components/FavProjects.jsx";
 
 const TopProjects = () => {
     return (
