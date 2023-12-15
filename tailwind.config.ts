@@ -23,5 +23,6 @@ const config: Config = {
     },
   },
   plugins: [],
+  separator: `_`,
 };
 export default config;

@@ -11,7 +11,6 @@ const TopProjects = () => {
 
         axios.get("/api/favProjects").then((res) => {
             setData(res.data);
-            // console.log(res.data);
         });
     }, []);
 

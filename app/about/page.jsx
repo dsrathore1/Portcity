@@ -5,16 +5,15 @@ import Link from 'next/link';
 import { Kaushan_Script, Space_Mono, Cardo } from 'next/font/google';
 import { BsHeartHalf } from "react-icons/bs";
 
-export const ks = Kaushan_Script({
+export const k_s = Kaushan_Script({
     weight: ['400'],
-    style: ["normal"],
     subsets: ["latin"]
 });
 
 export const s_m = Space_Mono({
     weight: ["700"],
-    style: ["normal"],
-    subsets: ['latin']
+    subsets: ['latin'],
+
 });
 
 export const cardo = Cardo({
@@ -31,7 +30,7 @@ const About = () => {
         <>
             <div className="flex justify-between items-center h-screen">
                 <div className='px-4 w-[100%]'>
-                    <h1 className={`${ks.className} relative text-6xl mt-10 flex`}>Exprienced Engineer <br />& A Great Person<div className='animate-ball absolute left-[26.4rem] bottom-[1.5rem] w-[1rem] h-[1rem] bg-violet-500 ml-2 rounded-full'></div></h1>
+                    <h1 className={`${k_s.className} relative text-6xl mt-10 flex`}>Exprienced Engineer <br />& A Great Person<div className='animate-ball absolute left-[26.4rem] bottom-[1.5rem] w-[1rem] h-[1rem] bg-violet-500 ml-2 rounded-full'></div></h1>
                     <h3 className={`${s_m.className} text-md tracking-widest mt-4`}>Designer and photographer for personal use</h3>
                     <div className='mt-10'>
                         <h2 className={`${s_m.className} tracking-wider uppercase font-extrabold text-2xl`}>Hello! I&apos;m Digpal</h2>
