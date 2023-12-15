@@ -1,4 +1,5 @@
-import React from "react";
+"use client"
+import React, { useEffect } from "react";
 import Tools from "../Components/Tools";
 import "../globals.css";
 import Link from "next/link";
@@ -6,6 +7,9 @@ import HeroBg from "../../public/hero-bg.jpg";
 import Image from "next/image";
 
 const MainPage = () => {
+  useEffect(() => {
+    document.title = "Portcity - Home"
+  }, [])
   return (
     <>
       <div className="relative main-heading text-center flex flex-col items-center justify-center h-screen z-10">
