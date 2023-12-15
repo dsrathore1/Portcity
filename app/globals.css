@@ -154,7 +154,7 @@
   background-size: auto 100%;
   margin-top: 3rem;
   animation: slider 150s linear infinite;
-  background-image: url("./static/Slide2.png");
+  background-image: url("../public/Slide2.png");
 }
 
 @keyframes slider {

@@ -1,10 +1,10 @@
 "use client"
 import React from 'react'
-import ShareBtn from "../Static/share-button.jsx";
+import ShareBtn from "../../public/share-button.jsx";
 import Link from 'next/link';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import { Space_Mono, Kaushan_Script } from 'next/font/google';
-import Project_Bg from "../Static/bg.jpg";
+import Project_Bg from "../../public/bg.jpg";
 import Image from 'next/image';
 
 

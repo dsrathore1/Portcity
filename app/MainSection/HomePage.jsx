@@ -2,7 +2,7 @@ import React from "react";
 import Tools from "../Components/Tools";
 import "../globals.css";
 import Link from "next/link";
-import HeroBg from "@/app/Static/hero-bg.jpg";
+import HeroBg from "../../public/hero-bg.jpg";
 import Image from "next/image";
 
 const MainPage = () => {
