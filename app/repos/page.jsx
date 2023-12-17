@@ -35,7 +35,7 @@ const Repos = () => {
                     <div className='h-[70vh] w-screen bg-transparent z-20' >
                         <div className='absolute left-[20rem]'>
                             <h1 className={`${pd.className} text-2xl mt-10 uppercase tracking-wide `}>About King</h1>
-                            <p className={`${pd.className} w-[50vw] mt-16 text-justify text-6xl`} >I am a Bay Area - based product developer focused on collaboration, my users, and <span className='text-[#c082ff] capitalize'>creati</span>vity of applications.</p>
+                            <p className={`${pd.className} w-[50vw] mt-16 text-justify text-5xl`} >I am a Bay Area - based product developer focused on collaboration, my users, and <span className='text-[#c082ff] capitalize'>creati</span>vity of my work.</p>
                         </div>
                         <div className='absolute top-[5rem] w-1/2 bg-[#ffffff] opacity-10 h-[31.8rem] -z-20'>
                         </div>
