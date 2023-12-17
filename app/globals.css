@@ -20,9 +20,9 @@
   }
 }
 
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
   display: none;
-}
+} */
 
 .animated-text-1 {
   background-image: linear-gradient(90deg, #007cf0, #00dfd8);
@@ -202,3 +202,4 @@
     transform: translate(0, 0) rotate(0deg);
   }
 }
+
