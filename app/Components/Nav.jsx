@@ -11,31 +11,25 @@ const Nav = () => {
           </h2>
           <ol className="text-[15px] ml-6 text-gray-300 font-light">
             <Link
-              className="mx-4 hover:text-white transition-all ease-in-out duration-[.3s]"
+              className="mx-4 hover_text-white transition-all ease-in-out duration-[.3s]"
               href="/"
             >
               Home
             </Link>
             <Link
-              className="mx-4 hover:text-white transition-all ease-in-out duration-[.3s]"
+              className="mx-4 hover_text-white transition-all ease-in-out duration-[.3s]"
               href="/about"
             >
               About
             </Link>
             <Link
-              className="mx-4 hover:text-white transition-all ease-in-out duration-[.3s]"
-              href="/projects"
-            >
-              Fav. Projects
-            </Link>
-            <Link
-              className="mx-4 hover:text-white transition-all ease-in-out duration-[.3s]"
+              className="mx-4 hover_text-white transition-all ease-in-out duration-[.3s]"
               href="/repos"
             >
               Repositories
             </Link>
             <Link
-              className="mx-4 hover:text-white transition-all ease-in-out duration-[.3s]"
+              className="mx-4 hover_text-white transition-all ease-in-out duration-[.3s]"
               href="/socialMedia"
             >
               Social Media
@@ -45,7 +39,7 @@ const Nav = () => {
         <div className="Btn-Container text-base space-x-6 mr-6">
           <Link
             className="border-slate-500 border py-2 px-6 rounded-lg transition-all ease-in-out duration-[.3s]"
-            href="#contact"
+            href="/contact"
           >
             Contact Me
           </Link>

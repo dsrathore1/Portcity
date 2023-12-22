@@ -39,14 +39,14 @@ const About = () => {
                     <div>
                         <h3 className={`${s_m.className} uppercase text-lg tracking-widest mt-8`}>Where to find me</h3>
                         <ol className={`${s_m.className} flex tracking-wide mt-3`}>
-                            <Link className='hover:text-violet-600 transition-all duration-[.7s] ease-in-out flex justify-center items-center mx-3 gap-2' href="#"><BsHeartHalf />GitHub</Link>
-                            <Link className='hover:text-pink-600 transition-all duration-[.7s] ease-in-out flex justify-center items-center mx-3 gap-2' href="#"><BsHeartHalf />Instagram</Link>
-                            <Link className='hover:text-blue-600 transition-all duration-[.7s] ease-in-out flex justify-center items-center mx-3 gap-2' href="#"><BsHeartHalf />LinknkedIn</Link>
-                            <Link className='hover:text-slate-500 transition-all duration-[.7s] ease-in-out flex justify-center items-center mx-3 gap-2' href="#"><BsHeartHalf />Twitter</Link>
+                            <Link className='hover_text-violet-600 transition-all duration-[.7s] ease-in-out flex justify-center items-center mx-3 gap-2' href="#"><BsHeartHalf />GitHub</Link>
+                            <Link className='hover_text-pink-600 transition-all duration-[.7s] ease-in-out flex justify-center items-center mx-3 gap-2' href="#"><BsHeartHalf />Instagram</Link>
+                            <Link className='hover_text-blue-600 transition-all duration-[.7s] ease-in-out flex justify-center items-center mx-3 gap-2' href="#"><BsHeartHalf />LinkedIn</Link>
+                            <Link className='hover_text-slate-500 transition-all duration-[.7s] ease-in-out flex justify-center items-center mx-3 gap-2' href="#"><BsHeartHalf />Twitter</Link>
                         </ol>
                     </div>
                     <div className='w-1/2 h-[8vh] flex justify-center items-end mt-6'>
-                        <button className={`${s_m.className} bg-purple-500 w-1/2 h-[80%] rounded-md shadow-4xl shadow-purple-700 text-xl hover:border-2 duration-[.5s] ease-in-out transition-all hover:border-purple-500 hover:bg-transparent uppercase tracking-wider `}>Have a look once</button>
+                        <button className={`${s_m.className} bg-purple-500 w-1/2 h-[80%] rounded-md shadow-4xl shadow-purple-700 text-xl hover_border-2 duration-[.5s] ease-in-out transition-all hover_border-purple-500 hover_bg-transparent uppercase tracking-wider `}>Have a look once</button>
                     </div>
                 </div>
                 <div className='image'></div>

@@ -28,21 +28,21 @@ const Projects = () => {
                     <h2 className='mb-10 text-lg font-semibold text-violet-500'>Full-Stack Developer</h2>
                     <p className='text-[#b3b3b3]'>I built open source projects and also I contributes on several platform. With an relentless passion for harnessing the power of automation, continuous integration, and continuous deployment. <br /><br /> I has emerged as a driving force in modern software development practices moreover deep-rooted technical acumen, combined with an insatiable curiosity, has propelled me to the vanguard of DevOps methodologies, where I orchestrates intricate systems with finesse and precision.</p>
                     <div className='mt-6 flex justify-center items-center gap-10'>
-                        <button onClick={() => { window.open("https://linkedin.com/in/dsrathore1") }} className='hover:text-blue-600 duration-500 ease-in-out flex justify-center items-center gap-2 text-sm'>
+                        <button onClick={() => { window.open("https://linkedin.com/in/dsrathore1") }} className='hover_text-blue-600 duration-500 ease-in-out flex justify-center items-center gap-2 text-sm'>
                             <span className='text-4xl'>
                                 <FaLinkedin />
                             </span>
                             LinkedIn
                             <ShareBtn />
                         </button>
-                        <button onClick={() => { window.open("https://instagram.com/amblent_photographer") }} className='hover:text-pink-600 duration-500 ease-in-out flex justify-center items-center gap-2 text-sm'>
+                        <button onClick={() => { window.open("https://instagram.com/amblent_photographer") }} className='hover_text-pink-600 duration-500 ease-in-out flex justify-center items-center gap-2 text-sm'>
                             <span className='text-4xl'>
                                 <FaInstagram />
                             </span>
                             Instagram
                             <ShareBtn />
                         </button>
-                        <button onClick={() => { window.open("https://github.com/dsrathore1") }} className='hover:text-slate-500 duration-500 ease-in-out flex justify-center items-center gap-2 text-sm'>
+                        <button onClick={() => { window.open("https://github.com/dsrathore1") }} className='hover_text-slate-500 duration-500 ease-in-out flex justify-center items-center gap-2 text-sm'>
                             <span className='text-4xl'>
                                 <FaGithub />
                             </span>
