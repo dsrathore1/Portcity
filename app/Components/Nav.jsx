@@ -26,7 +26,7 @@ const Nav = () => {
               className="mx-4 hover_text-white transition-all ease-in-out duration-[.3s]"
               href="/repos"
             >
-              Repositories
+              Projects
             </Link>
             <Link
               className="mx-4 hover_text-white transition-all ease-in-out duration-[.3s]"

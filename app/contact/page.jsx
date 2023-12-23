@@ -36,15 +36,15 @@ const ContactMe = () => {
                                 </div>
                             </div>
                             <div className="p-2 w-full">
-                                <button className="flex mx-auto text-white bg-textViolet border-0 py-2 px-8 focus:outline-none hover_bg-indigo-600 rounded text-lg">Send Gift 🎁</button>
+                                <button className="flex mx-auto text-white bg-textViolet border-0 py-2 px-8 focus:outline-none hover_bg-purple-900 active_translate-y-2 transition-all ease-in-out duration-500 rounded text-lg">Send Gift 🎁</button>
                             </div>
                             <div className="p-2 w-full pt-6 mt-6 border-t border-gray-800 text-center">
-                                <Link href='' className="text-textViolet">dsrathorebsw1234@gmail.com</Link>
+                                <Link href='' className="text-textViolet select-none">dsrathorebsw1234@gmail.com</Link>
                                 <p className="leading-normal my-5">49 Smith St.
                                     <br />Saint Cloud, MN 56301
                                 </p>
                                 <span className="inline-flex">
-                                    <Link href='' className="text-gray-500">
+                                    <Link href='https://www.linkedin.com/in/dsrathore1/' className="text-gray-500">
                                         <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
                                             <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                                         </svg>
