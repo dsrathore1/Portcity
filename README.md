@@ -1,34 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <img src="https://github.com/dsrathore1/Portcity/blob/main/public/LOGO.png?raw=true" alt="Portfolio Icon" width="50">
+  Portcity
+</h1>
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+  ![GitHub last commit](https://img.shields.io/github/last-commit/dsrathore1/Portcity)
+  ![GitHub stars](https://img.shields.io/github/stars/dsrathore1/Portcity?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/dsrathore1/Portcity?style=social)
+  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## 🚀 Introduction
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Welcome to **Portcity** – your gateway to my personal portfolio! This space showcases my skills, projects, and experiences in the world of technology and beyond.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌐 Live Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Explore the live version of Portcity [here](https://portcity.vercel.app/).
 
-## Learn More
+## 📂 Repository Structure
 
-To learn more about Next.js, take a look at the following resources:
+| File/Folder            | Description                       |
+|-------------------------|-----------------------------------|
+| `index.html`            | Main HTML file                    |
+| `styles/`               | Styles directory                  |
+| `scripts/`              | Scripts directory                 |
+| `images/`               | Images directory                  |
+| `projects/`             | Projects directory                |
+| `about/`                | About section files               |
+| `contact/`              | Contact section files             |
+| `LICENSE`               | Project license file              |
+| `README.md`             | Project README file               |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Next.js 14
+- Node.js
+- MongoDB
+- Passport.js
+- GitHub API
+- TailwindCSS
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+<div align="center">
+
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-dsrathore1-blue.svg?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/dsrathore1/)
+  [![GitHub](https://img.shields.io/badge/Github-dsrathore1-yellow.svg?style=flat-square&logo=github)](https://github.com/dsrathore1)
+  [![Portfolio](https://img.shields.io/badge/Portfolio-Portcity-red.svg?style=flat-square)](https://portcity.vercel.app/)
+
+</div>
