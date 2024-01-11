@@ -1,7 +1,6 @@
 "use client"
 
-import React, { useEffect, useState } from 'react'
-import RepoBox from '../Components/RepoBox';
+import React from 'react'
 import Image from "next/image";
 import "../globals.css";
 import ProjectBG from "@/public/project_bg.jpg";
@@ -16,18 +15,6 @@ export const pd = Playfair_Display({
 })
 
 const ReposBanner = () => {
-    const [data, setData] = useState([]);
-
-    useEffect(() => {
-        document.title = "Repositories - All my GitHub repositories are present here"
-        fetch("/api/repos")
-            .then((res) => res.json())
-            .then((data) => {
-                setData(data);
-                console.log(data);
-            });
-    }, []);
-
     return (
         <>
             <Image className='fixed top-[-10rem] mt-4 z-0 brightness-50' height={1900} width={1600} src={ProjectBG} alt='bg' />
@@ -47,19 +34,6 @@ const ReposBanner = () => {
                             <p className='mb-4 text-3xl'><BsArrowDown /></p>
                         </div>
                     </div>
-                    {/* {
-                        data.map((item, index) => {
-                            return (
-                                <div className='flex flex-wrap justify-center items-center bg-black' key={index}>
-                                    {item.map((dataItems) => {
-                                        return (
-                                            <RepoBox key={dataItems.id} lang={dataItems.language} star={dataItems.stargazers_count} name={dataItems.name} size={dataItems.size} click={dataItems.clone_url} watchers={dataItems.watchers} />
-                                        );
-                                    })}
-                                </div>
-                            )
-                        })
-                    } */}
                     <div className='bg-[#14131A] h-full w-full'>
                         <MyProject />
                     </div>
