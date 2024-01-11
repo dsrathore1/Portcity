@@ -4,9 +4,7 @@ import ShareBtn from "../../public/share-button.jsx";
 import Link from 'next/link';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import { Space_Mono, Kaushan_Script } from 'next/font/google';
-import Project_Bg from "../../public/bg.jpg";
-import Image from 'next/image';
-
+import UsedTech from './UsedTech.jsx';
 
 export const s_m = Space_Mono({
     subsets: ["latin"],
@@ -22,7 +20,7 @@ const Projects = () => {
     return (
         <>
             <h3 className="text-center my-8 text-sm font-medium uppercase tracking-widest text-[#888888] select-none cursor-default">Let&apos;s me show some glimpse of my work</h3>
-            <div className='w-full h-[45vh] flex justify-between items-center scroll-smooth'>
+            <div className='w-full h-[55vh] flex justify-between items-center scroll-smooth'>
                 <div className='w-full h-full px-4 ov'>
                     <h1 className={`animate-text text-4xl tracking-wide uppercase flex ${k_s.className}`}>Digpal Singh Rathore<div className='animate-ball w-[1rem] h-[1rem] bg-violet-500 ml-2 rounded-full'></div></h1>
                     <h2 className='mb-10 text-lg font-semibold text-violet-500'>Full-Stack Developer</h2>
@@ -52,8 +50,8 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className='w-full h-full'>
-                    <div className='px-4 space-y-2 no-scrollbar'>
-                        <Image className='rounded-lg' src={Project_Bg} alt='bg' />
+                    <div className='ml-16 no-scrollbar'>
+                        <UsedTech />
                     </div>
                     <div className={`px-4 flex justify-center items-center ${s_m.className}`}>
                         <Link href="/projects" className='bg-violet-500 px-10 my-5 py-3 rounded-lg uppercase tracking-wide' >Load More</Link>
