@@ -20,7 +20,7 @@ const sm = Space_Mono({
 const Footer = () => {
     return (
         <>
-            <div className='flex justify-evenly items-center h-[40vh] border-t w-full border-solid border-[1px] border-white border-opacity-20'>
+            <div className='md_flex md_justify-evenly items-center mt-[90rem] md_mt-0 h-[40vh] md_border-t w-[90vw] md_w-full border-solid md_border-[1px] border-white border-opacity-20'>
                 <div className='h-full w-full px-2 flex flex-col justify-center items-center'>
                     <Image src={Logo} alt='#' height={100} width={100} className='mt-10' />
                     <div className=' flex flex-col justify-center items-center h-full w-full -mt-10'>
@@ -56,7 +56,7 @@ const Footer = () => {
                     <p className=''>Join my newsletter to get tips and tricks or an awesome projects</p>
                     <div className='w-full flex flex-col justify-center items-center'>
                         <input className='h-[7vh] my-3 rounded-full bg-transparent w-full border-solid border-t-2 border-r-2 border-l-2 border-gray-600 px-4 text-lg' placeholder='Email' />
-                        <button className='text-md bg-gradient-to-r rounded-full py-2 w-[12vw] active:scale-75 transition-all ease-in-out duration-500 from-indigo-500 from-10% to-pink-500'>Sign Up</button>
+                        <button className='text-md mt-5 md_mt-0 bg-gradient-to-r rounded-full py-2 w-full md_w-[12vw] active:scale-75 transition-all ease-in-out duration-500 from-indigo-500 from-10% to-pink-500'>Sign Up</button>
                     </div>
                 </div>
             </div>

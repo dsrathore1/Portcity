@@ -4,7 +4,7 @@ import React from "react";
 const Tools = () => {
     return (
         <>
-            <div className="flex flex-col justify-center items-center z-10 relative">
+            <div className="lg_flex hidden lg_flex-col justify-center items-center z-10 relative">
                 <h3 className="text-center -mt-[9rem] mb-4 text-sm font-medium uppercase tracking-widest text-[#888888]">The tools which I always prefer first</h3>
                 <div className="flex justify-center items-center flex-col -space-y-5 mt-4">
                     <div className="flex justify-center items-center mb-8 gap-14 w-[80%]">

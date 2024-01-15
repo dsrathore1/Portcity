@@ -4,7 +4,7 @@ import React from "react";
 const Nav = () => {
   return (
     <>
-      <div className="h-[10vh] w-full flex justify-between items-center bg-transparent backdrop-blur-sm fixed border-b-[.2px] border-gray-800 z-20">
+      <div className="lg_flex hidden h-[10vh] w-full justify-between items-center bg-transparent backdrop-blur-sm fixed border-b-[.2px] border-gray-800 z-20">
         <div className="flex justify-center items-center">
           <h2 className="text-4xl uppercase font-extrabold ml-7">
             Port<span className="text-violet-500">city</span>

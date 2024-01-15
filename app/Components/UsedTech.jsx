@@ -2,9 +2,9 @@ import React from 'react'
 
 const UsedTech = () => {
     return (
-        <div className='flex justify-evenly flex-wrap w-[40vw] gap-4'>
+        <div className='md_flex justify-evenly flex-wrap md_w-[40vw] gap-4'>
             <div className='bg-[#1C1B23] h-[15rem] w-[12rem] px-3 rounded-lg'>
-                <h2 className='my-3 text-lg text-gray-200 drop-shadow-lg'>Frontend</h2>
+                <h2 className='my-3 pt-1 md_pt-0 text-lg text-gray-200 drop-shadow-lg'>Frontend</h2>
                 <div className='flex flex-wrap gap-3'>
                     <div className='bg-black text-[13px] border-[1px] border-opacity-75 border-blue-500 font-normal text-gray-400 h-8 flex justify-center items-center px-2 rounded-sm shadow-2xl'>ReactJS</div>
                     <div className='bg-black text-[13px] border-[1px] border-opacity-75 border-gray-400 font-normal text-gray-400 h-8 flex justify-center items-center px-2 rounded-sm shadow-2xl'>NextJS 14</div>
@@ -17,7 +17,7 @@ const UsedTech = () => {
                 </div>
             </div>
             <div className='bg-[#1C1B23] h-[15rem] w-[12rem] px-3 rounded-lg'>
-                <h2 className='my-3 text-lg text-gray-200 drop-shadow-lg'>Backend</h2>
+                <h2 className='my-3 pt-1 md_pt-0 text-lg text-gray-200 drop-shadow-lg'>Backend</h2>
                 <div className='flex flex-wrap gap-3'>
                     <div className='bg-black text-[13px] border-[1px] border-opacity-75 border-green-200 font-normal text-gray-400 h-8 flex justify-center items-center px-2 rounded-sm shadow-2xl'>NodeJS</div>
                     <div className='bg-black text-[13px] border-[1px] border-opacity-75 border-green-500 font-normal text-gray-400 h-8 flex justify-center items-center px-2 rounded-sm shadow-2xl'>ExpressJS</div>
@@ -28,7 +28,7 @@ const UsedTech = () => {
                 </div>
             </div>
             <div className='bg-[#1C1B23] h-[15rem] w-[12rem] px-3 rounded-lg'>
-                <h2 className='my-3 text-lg text-gray-200 drop-shadow-lg'>Database</h2>
+                <h2 className='my-3 pt-1 md_pt-0 text-lg text-gray-200 drop-shadow-lg'>Database</h2>
                 <div className='flex flex-wrap gap-3'>
                     <div className='bg-black text-[13px] border-[1px] border-opacity-75 border-green-500 font-normal text-gray-400 h-8 flex justify-center items-center px-2 rounded-sm shadow-2xl'>MongoDB</div>
                     <div className='bg-black text-[13px] border-[1px] font-normal border-opacity-75 border-blue-500 text-gray-400 h-8 flex justify-center items-center px-2 rounded-sm shadow-2xl'>PostgreSQL</div>
@@ -39,7 +39,7 @@ const UsedTech = () => {
                 </div>
             </div>
             <div className='bg-[#1C1B23] h-[15rem] w-[12rem] px-3 rounded-lg'>
-                <h2 className='my-3 text-lg text-gray-200 drop-shadow-lg'>DevOps</h2>
+                <h2 className='my-3 pt-1 md_pt-0 text-lg text-gray-200 drop-shadow-lg'>DevOps</h2>
                 <div className='flex flex-wrap gap-3'>
                     <div className='bg-black text-[13px] border-[1px] font-normal border-opacity-75 border-blue-500 text-gray-400 h-8 flex justify-center items-center px-2 rounded-sm shadow-2xl'>Docker</div>
                     <div className='bg-black text-[13px] border-[1px] font-normal border-opacity-75 border-gray-500 text-gray-400 h-8 flex justify-center items-center px-2 rounded-sm shadow-2xl'>Jenkins</div>
