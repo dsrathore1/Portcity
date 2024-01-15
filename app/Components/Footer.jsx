@@ -20,6 +20,7 @@ const sm = Space_Mono({
 const Footer = () => {
     return (
         <>
+            
             <div className='md_flex md_justify-evenly items-center mt-[90rem] md_mt-0 h-[40vh] md_border-t w-[90vw] md_w-full border-solid md_border-[1px] border-white border-opacity-20'>
                 <div className='h-full w-full px-2 flex flex-col justify-center items-center'>
                     <Image src={Logo} alt='#' height={100} width={100} className='mt-10' />
