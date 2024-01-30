@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Image from "next/image";
-import "../globals.css";
+import "../../globals.css";
 import ProjectBG from "@/public/project_bg.jpg";
 import { Playfair_Display } from 'next/font/google';
 import MyProject from './my-projects';
@@ -12,7 +12,7 @@ export const pd = Playfair_Display({
     weight: ['500'],
     subsets: ['latin'],
     style: ['normal', 'italic']
-})
+});
 
 const ReposBanner = () => {
     return (

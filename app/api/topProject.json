@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Personal Portfolio",
+        "lang": "Next.js",
+        "repo_link": "https://github.com/dsrathore1/Portcity.git",
+        "image_link": "https://assets-global.website-files.com/606a802fcaa89bc357508cad/61701b4e166c837543d8f0ce_2_How%20To%20a%20Create%20Personal%20Portfolio%20Website-p-1080.png",
+        "desc": "Elevate your online presence with a sleek and responsive personal portfolio built on Next.js. Seamlessly integrate dynamic content and showcase your skills and projects with style, leveraging Next.js's powerful features for a seamless and engaging user experience"
+    },
+    {
+        "title": "E-Commerce website",
+        "lang": "PERN-Stack, Docker, Nginx, Kubernetes, AWS, Vercel",
+        "repo_link": "https://github.com/dsrathore1/UrCraze-Ecom-App.git",
+        "image_link": "https://cdn.dribbble.com/users/6646036/screenshots/15539284/media/a7e17425bd7df0b5777c433e615a6e8a.png?resize=1000x750&vertical=center",
+        "desc": "The E-Commerce Full-Stack Application offers a seamless online shopping experience with cutting-edge technologies. Powered by Next.js for the frontend, Strapi for backend, PostgreSQL for the database, and Docker for containerization, it presents a modern, scalable e-commerce platform."
+    },
+    {
+        "title": "Social Media App",
+        "lang": "MERN-Stack, Socket.io, Docker",
+        "repo_link": "https://github.com/dsrathore1/Social-Media.git",
+        "image_link": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2020/01/Screen-Shot-2019-04-30-at-3.25.54-PM.png?w=1500&quality=82&strip=all&ssl=1",
+        "desc": "Connect and share seamlessly with our Social Media App, a MERN stack-powered platform offering secure authentication, real-time updates, and interactive features for creating, liking, and commenting on posts."
+    },
+    {
+        "title": "Resume Generator",
+        "lang": "Vanilla JS",
+        "repo_link": "https://github.com/dsrathore1/Resume-Generator.git",
+        "image_link": "https://user-images.githubusercontent.com/87645745/213860517-73a40b9c-dd35-4586-a253-757c654f19c7.png",
+        "desc": "Craft a user-friendly resume generator using Vanilla JavaScript, harnessing the power of local storage for seamless data persistence. Seamlessly create and store personalized resumes with ease, offering a streamlined solution for professional document creation"
+    }
+]

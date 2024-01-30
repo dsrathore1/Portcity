@@ -3,7 +3,7 @@
 import React from 'react';
 import { IoLogoSnapchat, IoLogoInstagram, IoLogoGithub, IoMdGlobe } from "react-icons/io";
 import { ImLinkedin } from "react-icons/im";
-import Footer from '../Components/Footer';
+import Footer from '../../Components/Footer';
 
 const SocialMedia = () => {
     return (

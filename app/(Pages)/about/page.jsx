@@ -4,6 +4,8 @@ import React, { useEffect } from 'react'
 import Link from 'next/link';
 import { Kaushan_Script, Space_Mono, Cardo } from 'next/font/google';
 import { BsHeartHalf } from "react-icons/bs";
+import Image from 'next/image';
+import AboutImg from "../Assets/about-ill.svg";
 
 export const k_s = Kaushan_Script({
     weight: ['400'],
@@ -28,9 +30,9 @@ const About = () => {
 
     return (
         <>
-            <div className="flex justify-between items-center h-screen">
-                <div className='px-4 w-[100%]'>
-                    <h1 className={`${k_s.className} relative text-6xl mt-10 flex`}>Exprienced Engineer <br />& A Great Person<div className='animate-ball absolute left-[26.4rem] bottom-[1.5rem] w-[1rem] h-[1rem] bg-violet-500 ml-2 rounded-full'></div></h1>
+            <div className="flex justify-center items-center h-screen">
+                <div className='px-4 w-[130%]'>
+                    <h1 className={`${k_s.className} relative text-6xl mt-10 flex`}>Experienced Engineer <br />& A Great Person<div className='animate-ball absolute left-[26.4rem] bottom-[1.5rem] w-[1rem] h-[1rem] bg-violet-500 ml-2 rounded-full'></div></h1>
                     <h3 className={`${s_m.className} text-md tracking-widest mt-4`}>Designer and photographer for personal use</h3>
                     <div className='mt-10'>
                         <h2 className={`${s_m.className} tracking-wider uppercase font-extrabold text-2xl`}>Hello! I&apos;m Digpal</h2>
@@ -49,10 +51,12 @@ const About = () => {
                         <button className={`${s_m.className} bg-purple-500 w-1/2 h-[80%] rounded-md shadow-4xl shadow-purple-700 text-xl hover_border-2 duration-[.5s] ease-in-out transition-all hover_border-purple-500 hover_bg-transparent uppercase tracking-wider `}>Have a look once</button>
                     </div>
                 </div>
-                <div className='image'></div>
+                <div className='image relative h-full w-[50%] mr-20'>
+                    <Image className='absolute h-full w-full left-0' src={AboutImg} alt='#' height={500} width={500} />
+                </div>
             </div >
         </>
-    )
+    );
 }
 
 export default About

@@ -1,9 +1,9 @@
 "use client"
 import React, { useEffect } from "react";
-import Tools from "../Components/Tools";
-import "../globals.css";
+import Tools from "../../Components/Tools";
+import "../../globals.css";
 import Link from "next/link";
-import HeroBg from "../../public/hero-bg.jpg";
+import HeroBg from "../../../public/hero-bg.jpg";
 import Image from "next/image";
 
 const MainPage = () => {

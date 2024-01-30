@@ -1,0 +1,9 @@
+[
+    {
+        "title": "Hooks",
+        "lang": "React.js",
+        "repo_link": "https://github.com/dsrathore1/hooks.git",
+        "image_link": "https://raw.githubusercontent.com/alDuncanson/react-hooks-snippets/master/icon.png",
+        "desc": "Explore a dynamic React project showcasing the full spectrum of hooks, from useState for managing component state to useEffect for handling side effects, providing a comprehensive demonstration of modern React development with practical implementation of hooks"
+    }
+]
