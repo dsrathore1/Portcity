@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Kaushan_Script, Space_Mono, Cardo } from 'next/font/google';
 import { BsHeartHalf } from "react-icons/bs";
 import Image from 'next/image';
-import AboutImg from "../Assets/about-ill.svg";
+import AboutImg from "@/app/Assets/aboutIll.svg";
 
 export const k_s = Kaushan_Script({
     weight: ['400'],
