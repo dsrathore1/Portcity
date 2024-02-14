@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Hooks",
+    "lang": "React.js, Hooks, Redux-Toolkit",
+    "image_link": "",
+    "repo_link": ""
+  },
+  {
+    "title": "Social Media App",
+    "lang": "Next.js, REST-API, MongoDB, Redis, Socket.io, Express.js, TailwindCSS, GitHub-Actions",
+    "image_link": "",
+    "repo_link": ""
+  },
+  {
+    "title": "Resume Generator",
+    "lang": "React.js, Local storage, MongoDB, Express.js, EJS, REST-API",
+    "image_link": "",
+    "repo_link": ""
+  },
+  {
+    "title": "Portcity CMS",
+    "lang": "Next.js, REST-API, MongoDB, Express.js, TailwindCSS, GitHub-Actions, Docker",
+    "image_link": "",
+    "repo_link": ""
+  },
+  {
+    "title": "UrCraze (E-commerce Website)",
+    "lang": "Next.js, GitHub-Actions, PostgreSQL, Vercel, Nginx, Docker-Compose, Node.js, REST-API, Stripe",
+    "image_link": "",
+    "repo_link": ""
+  },
+  {
+    "title": "Full-Stack Blog Application",
+    "lang": "Next.js, Jenkins, PostgreSQL, AWS, Nginx, Docker-Compose, Express.js, Kubernetes, Trivy, SonarQube",
+    "image_link": "",
+    "repo_link": ""
+  },
+  {
+    "title": "Twitter Clone",
+    "lang": "Next.js, TailwindCSS, Socket.io",
+    "image_link": "",
+    "repo_link": ""
+  },
+  {
+    "title": "Serverless Application",
+    "lang": "Node.js, AWS lambda",
+    "image_link": "",
+    "repo_link": ""
+  },
+  {
+    "title": "ARF (Automatic Response Force)",
+    "lang": "React.js, Express.js, NASA-API, Geo-location, MongoDB ",
+    "image_link": "",
+    "repo_link": ""
+  }
+]

@@ -23,7 +23,7 @@ const Projects = () => {
             <div className='w-full h-[55vh] grid lg_flex justify-between items-center scroll-smooth'>
                 <div className='w-full h-full px-4'>
                     <h1 className={`animate-text text-4xl tracking-wide uppercase flex ${k_s.className}`}>Digpal Singh Rathore<div className='animate-ball sm_w-[1rem] sm_h-[1rem] w-[2rem] h-[5rem] bg-violet-500 xl_ml-5 rounded-full'></div></h1>
-                    <h2 className='mb-10 text-lg font-semibold text-violet-500'>Full-Stack Developer</h2>
+                    <h2 className='mb-10 text-lg font-semibold text-violet-500'>Full-Stack Developer / DevOps Engineer</h2>
                     <p className='text-[#b3b3b3] md_text-lg text-xl '>I built open source projects and also I contributes on several platform. With an relentless passion for harnessing the power of automation, continuous integration, and continuous deployment. <br /><br /> I has emerged as a driving force in modern software development practices moreover deep-rooted technical acumen, combined with an insatiable curiosity, has propelled me to the vanguard of DevOps methodologies, where I orchestrates intricate systems with finesse and precision.</p>
                     <div className='mt-6 flex justify-center items-center gap-10'>
                         <button onClick={() => { window.open("https://linkedin.com/in/dsrathore1") }} className='hover_text-blue-600 duration-500 ease-in-out flex justify-center items-center gap-2 text-sm'>
