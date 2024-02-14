@@ -1,6 +1,5 @@
 "use client"
 import React, { useEffect, useState } from 'react'
-import jsonData from "@/app/api/topProject.json"
 import Image from "next/image"
 
 const Extra = () => {
