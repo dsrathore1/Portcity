@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import moreProjects from "@/app/JSON/morePorjects.json";
+import favProject from "@/app/JSON/favProjects.json";
 
-const LovableProjects = () => {
+const TopProjects = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    setData(moreProjects);
+    setData(favProject);
   }, []);
 
   return (
@@ -18,7 +18,7 @@ const LovableProjects = () => {
             key={index}
           >
             <Image
-              className="rounded-tl-lg rounded-tr-lg h-48"
+              className="rounded-tl-lg rounded-tr-lg h-[11rem]"
               src={res.image_link}
               height={200}
               width={400}
@@ -35,4 +35,4 @@ const LovableProjects = () => {
   );
 };
 
-export default LovableProjects;
+export default TopProjects;

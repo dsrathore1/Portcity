@@ -15,10 +15,6 @@ const MyProject = () => {
                 <h1 className='5xl text-white my-[4rem] uppercase font-extralight tracking-wide'>Lovable Projects 💲</h1>
                 <div className='flex flex-wrap justify-center items-center gap-10'>
                     <LovableProjects />
-                    <LovableProjects />
-                    <LovableProjects />
-                    <LovableProjects />
-                    <LovableProjects />
                 </div>
             </div>
         </>

@@ -10,8 +10,8 @@ const Nav = () => {
     <>
       <div className="lg_flex hidden h-[10vh] w-full justify-between items-center bg-transparent backdrop-blur-sm fixed border-b-[.2px] border-gray-800 z-20">
         <div className="flex justify-center items-center">
-          <h2 className="text-4xl uppercase font-extrabold ml-7">
-            Port<span className="text-violet-500">city</span>
+          <h2 className="text-4xl uppercase font-light ml-7">
+            Port<span className="text-violet-500 font-extrabold">city</span>
           </h2>
           <ol className="text-[15px] ml-6 text-gray-300 font-light">
             <Link

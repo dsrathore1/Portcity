@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Portcity (Personal Portfolio)",
+    "lang": "Next.js, Express.js, Docker, Kubernetes, Trivy, MongoDB, REST-API, MongoDB, TailwindCSS",
+    "image_link": "",
+    "repo_link": ""
+  },
+  {
+    "title": "Automated CI/CD pipeline for FullStack Web Application",
+    "lang": "AWS, Docker, Jenkins, K8s, Next.js, PostgreSQL, REST-API, Ngnix",
+    "image_link": "",
+    "repo_link": ""
+  },
+  {
+    "title": "CI/CD Pipeline for Node.js application to deploy on K8s using jenkins",
+    "lang": "Node.js, Docker, K8s, Jenkins, Git, Trivy, AWS, Docker Scout",
+    "image_link": "",
+    "repo_link": ""
+  },
+  {
+    "title": "Build Microservices Application",
+    "lang": "Node.js, React.js, Docker, K8s, PostgreSQL, REST-API, Sequelize, Ngnix",
+    "image_link": "",
+    "repo_link": ""
+  },
+  {
+    "title": "Containerized microservices using Golang",
+    "lang": "Golang, Docker, K8s, Helm, Jenkins, Trivy, SonarQube",
+    "image_link": "",
+    "repo_link": ""
+  }
+  
+]
