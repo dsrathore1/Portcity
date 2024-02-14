@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server.js";
 import connectDB from "@/helper/connectDB.js";
-import fpModel from "@/app/Model/favProjects.js";
+import mpModel from "@/app/Model/favProjects.js";
 
 
 connectDB();
@@ -8,7 +8,7 @@ connectDB();
 export async function GET(req) {
     try {
 
-        const result = await fpModel.find({});
+        const result = await mpModel.find({});
 
         return NextResponse.json(result);
 
@@ -19,7 +19,7 @@ export async function GET(req) {
 
 export async function POST(req) {
     try {
-        const createData = new fpModel({
+        const createData = new mpModel({
             title: "My Digital Canvas",
             lang: "JavaScript",
             repo_link: "https://github.com/dsrathore1/Personal-Porfolio",

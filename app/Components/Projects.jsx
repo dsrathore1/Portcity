@@ -57,7 +57,7 @@ const Projects = () => {
                         <UsedTech />
                     </div>
                     <div className={`px-4 flex md_w-full w-screen justify-center items-center ${s_m.className}`}>
-                        <Link href="/projects" className='bg-violet-500 px-10 my-5 py-3 rounded-lg uppercase tracking-wide' >Load More</Link>
+                        <Link href="/repos" className='bg-violet-500 px-10 my-5 py-3 rounded-lg uppercase tracking-wide' >Load More</Link>
                     </div>
                 </div>
             </div>
