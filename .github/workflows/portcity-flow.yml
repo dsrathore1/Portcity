@@ -1,0 +1,30 @@
+name: Portcity workflow
+run-name: Actions number ${{github.run_number}}
+
+on: 
+  push: 
+    branches: 
+      - "main"
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: .
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Nodejs
+        uses: actions/setup-node@v4
+      
+      - name: Install dependencies and Build project
+        run: |
+          npm install
+          npm run build
+      
+      
